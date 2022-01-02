@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "streams": "node streams/index.js"
+    "streams": "node streams/index.js",
+    "streams-concurent": "node streams/taskScheduler.js"
   },
   "type": "module",
   "keywords": [],
